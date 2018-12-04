@@ -1,0 +1,10 @@
+{
+  "id": "dar_skillrework",
+  "name": "Skill Rework",
+  "author": "Darloth",
+  "utility": "false",
+  "version": "1.0",
+  "description": "Changes skills to try and avoid optimal-but-less-fun choices.",
+  "gameVersion": "0.9a",
+  "jars": ["jars/SkillRework.jar"]
+}
