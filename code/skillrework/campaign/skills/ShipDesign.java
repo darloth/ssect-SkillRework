@@ -36,10 +36,9 @@ public class ShipDesign {
         }
 
         public String getEffectDescription(float level) {
-            return "level 1";
-//            return "+" + (int) CAPACITORS_L1_BONUS + "% maximum flux capacitors" + System.lineSeparator()
-//                    + "+" + (int) VENTS_L1_BONUS + "% maximum flux vents" + System.lineSeparator()
-//                    + "+" + (int) OP_L1_BONUS + "% ordnance points";
+            return "+" + (int) CAPACITORS_L1_BONUS + "% maximum flux capacitors, "
+                    + "+" + (int) VENTS_L1_BONUS + "% maximum flux vents and "
+                    + "+" + (int) OP_L1_BONUS + "% ordnance points";
         }
 
         public String getEffectPerLevelDescription() {
@@ -65,10 +64,9 @@ public class ShipDesign {
         }
 
         public String getEffectDescription(float level) {
-            return "level 2";
-//            return "+" + (int) CAPACITORS_L2_BONUS + "% maximum flux capacitors" + System.lineSeparator()
-//                    + "+" + (int) VENTS_L2_BONUS + "% maximum flux vents" + System.lineSeparator()
-//                    + "+" + (int) OP_L2_BONUS + "% ordnance points";
+            return "+" + (int) CAPACITORS_L2_BONUS + "% maximum flux capacitors, "
+                    + "+" + (int) VENTS_L2_BONUS + "% maximum flux vents and "
+                    + "+" + (int) OP_L2_BONUS + "% ordnance points";
         }
 
         public String getEffectPerLevelDescription() {
@@ -94,10 +92,9 @@ public class ShipDesign {
         }
 
         public String getEffectDescription(float level) {
-            return "level 3";
-//            return "+" + (int) CAPACITORS_L3_BONUS + "% maximum flux capacitors" + System.lineSeparator()
-//                    + "+" + (int) VENTS_L3_BONUS + "% maximum flux vents" + System.lineSeparator()
-//                    + "+" + (int) OP_L3_BONUS + "% ordnance points";
+            return "+" + (int) CAPACITORS_L3_BONUS + "% maximum flux capacitors, "
+                    + "+" + (int) VENTS_L3_BONUS + "% maximum flux vents and "
+                    + "+" + (int) OP_L3_BONUS + "% ordnance points";
         }
 
         public String getEffectPerLevelDescription() {

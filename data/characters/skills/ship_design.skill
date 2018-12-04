@@ -2,7 +2,6 @@
     "id":"ship_design",
     "governingAptitude":"technology",
     "compressHullmods":false,
-    "effectGroups":[],
     "effectGroups":[
         {
             "name":"Level 1",
