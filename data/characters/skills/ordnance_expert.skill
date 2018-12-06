@@ -9,7 +9,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level1p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level1f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level1f"},
 				{"type":"SHIP", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level1B"},
 			]
 		},
@@ -19,7 +19,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level2p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level2f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level2f"},
 				{"type":"SHIP", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level2B"},
 			]
 		},
@@ -29,7 +29,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level3p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level3f"}
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.OrdnanceExpertise$Level3f"}
 			]
 		},
 	],

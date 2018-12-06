@@ -9,7 +9,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level1p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DamageControl$Level1f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level1f"},
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level1B"},
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level1C"},
 			]
@@ -20,8 +20,8 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level2p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DamageControl$Level2f"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DamageControl$Level2B"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level2f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level2B"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"autorepair":2}},		
 			]
 		},
@@ -31,9 +31,9 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level3Ap"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DamageControl$Level3Af"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level3Af"},
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level3Bp"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DamageControl$Level3Bf"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level3Bf"},
 			]
 		},
 	],

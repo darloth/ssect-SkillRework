@@ -9,7 +9,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.ImpactMitigation$Level1p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.ImpactMitigation$Level1f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.ImpactMitigation$Level1f"},
 			]
 		},
 		{
@@ -18,7 +18,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.ImpactMitigation$Level2p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.ImpactMitigation$Level2f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.ImpactMitigation$Level2f"},
 			]
 		},
 		{
@@ -27,7 +27,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.ImpactMitigation$Level3p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.ImpactMitigation$Level3f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.ImpactMitigation$Level3f"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"heavyarmor":3}},
 			]
 		},

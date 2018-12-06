@@ -9,7 +9,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DefensiveSystems$Level1p"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DefensiveSystems$Level1f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DefensiveSystems$Level1f"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"stabilizedshieldemitter":1}},
 			]
 		},
@@ -19,9 +19,9 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DefensiveSystems$Level2Ap"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DefensiveSystems$Level2Af"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DefensiveSystems$Level2Af"},
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DefensiveSystems$Level2Bp"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DefensiveSystems$Level2Bf"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DefensiveSystems$Level2Bf"},
 			]
 		},
 		{
@@ -30,7 +30,7 @@
 			"effectBasedOnLevel":false,
 			"effects":[
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DefensiveSystems$Level3Ap"},
-				{"type":"FLEET", "script":"skillrework.campaign.skills.DefensiveSystems$Level3Af"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DefensiveSystems$Level3Af"},
 				{"type":"SHIP", "script":"skillrework.campaign.skills.DefensiveSystems$Level3B"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"hardenedshieldemitter":3}},
 			]
