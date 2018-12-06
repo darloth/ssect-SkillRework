@@ -1,0 +1,34 @@
+{
+  "id":"flux_modulation",
+  "governingAptitude":"technology",
+  "compressHullmods":false,
+  "effectGroups":[
+    {
+      "name":"Level 1",
+      "requiredSkillLevel":1,
+      "effectBasedOnLevel":false,
+      "effects":[
+        {"type":"SHIP", "script":"skillrework.campaign.skills.PowerGridModulation$Level1a"},
+        {"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.PowerGridModulation$Level1b"},
+      ]
+    },
+    {
+      "name":"Level 2",
+      "requiredSkillLevel":2,
+      "effectBasedOnLevel":false,
+      "effects":[
+        {"type":"SHIP", "script":"skillrework.campaign.skills.PowerGridModulation$Level2a"},
+        {"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.PowerGridModulation$Level2b"},
+      ]
+    },
+    {
+      "name":"Level 3",
+      "requiredSkillLevel":3,
+      "effectBasedOnLevel":false,
+      "effects":[
+        {"type":"SHIP", "script":"skillrework.campaign.skills.PowerGridModulation$Level3a"},
+        {"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.PowerGridModulation$Level3b"},
+      ]
+    },
+  ],
+}

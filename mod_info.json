@@ -7,5 +7,5 @@
   "description": "Changes skills to try and avoid optimal-but-less-fun choices.",
   "gameVersion": "0.9a",
   "jars": ["jars/SkillRework.jar"],
-  "replace": ["data/characters/skills/ship_design.skill"]
+  "replace": ["data/characters/skills/ship_design.skill","data/characters/skills/flux_modulation.skill"]
 }
