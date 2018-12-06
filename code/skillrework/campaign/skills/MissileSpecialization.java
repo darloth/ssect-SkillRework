@@ -17,11 +17,11 @@ public class MissileSpecialization {
     public static final float FLEET_MISSILE_TURN_RATE_BONUS = 10f;
     public static final float FLEET_MISSILE_TURN_ACCEL_BONUS = 20f;
 
-    public static final float PERSONAL_MISSILE_SPEC_PERK_HEALTH_BONUS = 50f;
-    public static final float FLEET_MISSILE_SPEC_PERK_HEALTH_BONUS = 50f;
+    public static final float PERSONAL_MISSILE_SPEC_PERK_HEALTH_BONUS = 40f;
+    public static final float FLEET_MISSILE_SPEC_PERK_HEALTH_BONUS = 10f;
 
-    public static final float PERSONAL_MISSILE_SPEC_PERK_DAMAGE_BONUS = 25f;
-    public static final float FLEET_MISSILE_SPEC_PERK_DAMAGE_BONUS = 25f;
+    public static final float PERSONAL_MISSILE_SPEC_PERK_DAMAGE_BONUS = 20f;
+    public static final float FLEET_MISSILE_SPEC_PERK_DAMAGE_BONUS = 5f;
 
     public static class Level1p implements ShipSkillEffect {
 
