@@ -8,7 +8,7 @@ public class EvasiveAction {
 
     public static final float PERSONAL_MANEUVERABILITY_BONUS = 40;
     public static final float FLEET_MANEUVERABILITY_BONUS = 10;
-    public static final float PERSONAL_DAMAGE_TO_MODULES_REDUCTION = 41;
+    public static final float PERSONAL_DAMAGE_TO_MODULES_REDUCTION = 45;
     public static final float FLEET_DAMAGE_TO_MODULES_REDUCTION = 10;
     public static final float PERSONAL_EFFECTIVE_ARMOR_BONUS = 40;
     public static final float FLEET_EFFECTIVE_ARMOR_BONUS = 10;
