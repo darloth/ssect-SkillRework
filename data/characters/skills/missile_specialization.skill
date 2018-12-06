@@ -1,0 +1,37 @@
+{
+	"id":"missile_specialization",
+	"governingAptitude":"combat",
+	"compressHullmods":false,
+	"effectGroups":[
+		{
+			"name":"Level 1",
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"skillrework.campaign.skills.MissileSpecialization$Level1p"},
+				{"type":"FLEET", "script":"skillrework.campaign.skills.MissileSpecialization$Level1f"},
+				{"type":"HULLMOD_UNLOCK", "hullmods":{"eccm":1}},
+			]
+		},
+		{
+			"name":"Level 2",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"skillrework.campaign.skills.MissileSpecialization$Level2p"},
+				{"type":"FLEET", "script":"skillrework.campaign.skills.MissileSpecialization$Level2f"},
+				{"type":"HULLMOD_UNLOCK", "hullmods":{"missleracks":2}},
+			]
+		},
+		{
+			"name":"Level 3",
+			"requiredSkillLevel":3,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"skillrework.campaign.skills.MissileSpecialization$Level3p"},
+				{"type":"FLEET", "script":"skillrework.campaign.skills.MissileSpecialization$Level3f"},
+			]
+		},
+	],
+}
+

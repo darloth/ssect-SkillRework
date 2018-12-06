@@ -7,5 +7,16 @@
   "description": "Changes skills to try and avoid optimal-but-less-fun choices.",
   "gameVersion": "0.9a",
   "jars": ["jars/SkillRework.jar"],
-  "replace": ["data/characters/skills/ship_design.skill","data/characters/skills/flux_modulation.skill"]
+  "replace": ["data/characters/skills/ship_design.skill",
+    "data/characters/skills/flux_modulation.skill",
+    "data/characters/skills/evasive_action.skill",
+    "data/characters/skills/advanced_countermeasures.skill",
+    "data/characters/skills/defensive_systems.skill",
+    "data/characters/skills/impact_mitigation.skill",
+    "data/characters/skills/damage_control.skill",
+    "data/characters/skills/combat_endurance.skill",
+    "data/characters/skills/target_analysis.skill",
+    "data/characters/skills/ordnance_expert.skill",
+    "data/characters/skills/missile_specialization.skill",
+    "data/characters/skills/helmsmanship.skill"]
 }
