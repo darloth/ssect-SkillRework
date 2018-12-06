@@ -83,7 +83,7 @@ public class CombatEndurance {
         }
 
         public ScopeDescription getScopeDescription() {
-            return ScopeDescription.ALL_SHIPS;
+            return ScopeDescription.PILOTED_SHIP;
         }
 
     }
