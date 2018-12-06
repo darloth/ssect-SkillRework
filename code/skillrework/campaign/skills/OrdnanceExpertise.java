@@ -128,7 +128,7 @@ public class OrdnanceExpertise {
         }
 
         public ScopeDescription getScopeDescription() {
-            return ScopeDescription.PILOTED_SHIP;
+            return ScopeDescription.ALL_SHIPS;
         }
 
     }
